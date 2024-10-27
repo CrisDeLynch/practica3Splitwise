@@ -1,0 +1,73 @@
+body{
+    background-color: #333;
+}
+
+.espacio{
+    margin-top: 5px;
+}
+
+#btnForm{
+    width: 100%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+}
+
+#btnForm:hover{
+    background-color: gray;
+    color: white;
+}
+.accordion-button{
+    background-color:#016E44;
+    color: white;
+    border: 1px solid white;
+}
+.accordion-button:not(.collapsed){
+    background-color:#016E44;
+    color:white;
+    border: 1px solid white;
+}
+
+
+
+/* Estilos del formulario */
+
+select, label, input{
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    
+}
+
+input{
+    border: 1px solid #ccc;
+}
+
+input:last-of-type {
+    margin-bottom: 15px; 
+}
+
+button{
+    
+    background-color: #097f0c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* Estilos de validación */
+
+input.invalid {
+    border: 2px solid red;
+}
+
+input.valid {
+    border: 2px solid green;
+}
